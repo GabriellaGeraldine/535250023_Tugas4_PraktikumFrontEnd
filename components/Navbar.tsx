@@ -11,7 +11,7 @@ export const Navbar = () => {
         <div className="gb-nav-links">
           <Link href="/" className="gb-nav-link active">Home</Link>
           <Link href="/collections" className="gb-nav-link">Collections</Link>
-          <Link href="/profile" className="gb-nav-link">Profile</Link>
+          <Link href="/about" className="gb-nav-link">About</Link>
         </div>
       </div>
     </nav>

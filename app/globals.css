@@ -503,3 +503,8 @@ footer {
   height: auto;
   object-fit: cover;
 }
+
+.gabs {
+  color: white;
+  display: flex;
+}

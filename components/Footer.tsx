@@ -8,8 +8,9 @@ export const Footer = () => {
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-5 order-3 order-md-3 order-lg-1 about">
                         <div id="footer-title">
-                            <img id="footer-logo" src="/logo.png" alt="logo footer" />
-                            <h3>{"GAB'S"} BEAUTY</h3>
+                            <Link href="/" className="gb-nav-logo gabs">
+                            GAB&apos;S <span>BEAUTY</span>
+                            </Link>
                         </div>
                         <br />
                     </div>
