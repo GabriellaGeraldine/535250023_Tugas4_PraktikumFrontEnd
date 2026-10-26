@@ -101,7 +101,6 @@ export default function CollectionsPage() {
                   <p className="gb-product-p">{product.desc}</p>
                   <div className="gb-product-footer">
                     <span className="gb-price">{product.price}</span>
-                    <span className="gb-link">Add to Bag</span>
                   </div>
                 </div>
               </div>

@@ -70,7 +70,9 @@ export default function GabsBeautyHomePage() {
 
             <div className="gb-product-card">
               <div className="gb-product-img">
-                <span className="gb-img-text">Glow Veil Tint</span>
+                <span className="gb-img-text">
+                  <img className="gambar-product" src="/skintint.png" alt="" />
+                </span>
               </div>
               <div className="gb-product-body">
                 <span className="gb-product-cat">Complexion</span>
@@ -78,14 +80,15 @@ export default function GabsBeautyHomePage() {
                 <p className="gb-product-p">Sheer, hydrating skin tint that blurs imperfections naturally.</p>
                 <div className="gb-product-footer">
                   <span className="gb-price">IDR 245.000</span>
-                  <span className="gb-link">View Details</span>
                 </div>
               </div>
             </div>
 
             <div className="gb-product-card">
               <div className="gb-product-img">
-                <span className="gb-img-text">Velvet Kiss</span>
+                <span className="gb-img-text">
+                  <img className="gambar-product" src="/lipstick.png" alt="" />
+                </span>
               </div>
               <div className="gb-product-body">
                 <span className="gb-product-cat">Lips</span>
@@ -93,14 +96,15 @@ export default function GabsBeautyHomePage() {
                 <p className="gb-product-p">Rich pigment with a buttery soft matte finish that never dries.</p>
                 <div className="gb-product-footer">
                   <span className="gb-price">IDR 185.000</span>
-                  <span className="gb-link">View Details</span>
                 </div>
               </div>
             </div>
 
             <div className="gb-product-card">
               <div className="gb-product-img">
-                <span className="gb-img-text">Aura Glow</span>
+                <span className="gb-img-text">
+                  <img className="gambar-product" src="/liquidblush.png" alt="" />
+                </span>
               </div>
               <div className="gb-product-body">
                 <span className="gb-product-cat">Cheeks</span>
@@ -108,7 +112,6 @@ export default function GabsBeautyHomePage() {
                 <p className="gb-product-p">Lit-from-within flush that melts effortlessly into skin.</p>
                 <div className="gb-product-footer">
                   <span className="gb-price">IDR 210.000</span>
-                  <span className="gb-link">View Details</span>
                 </div>
               </div>
             </div>
