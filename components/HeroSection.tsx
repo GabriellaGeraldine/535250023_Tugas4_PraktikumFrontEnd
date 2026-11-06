@@ -1,4 +1,5 @@
 "use client"
+import { NormalizeError } from 'next/dist/shared/lib/utils';
 import Carousel from 'react-bootstrap/Carousel';
 
 interface Slide {
@@ -25,8 +26,9 @@ const HeroSection = () => {
                     <div
                         style={{
                             backgroundImage:`url(${ slide.imageUrl})`,
-                            backgroundSize:"cover",
+                            backgroundSize:"contain",
                             backgroundPosition:"center",
+                            backgroundRepeat: 'no-repeat',
                             height:"60vh",
                         }}>
                     </div>
