@@ -1,17 +1,38 @@
+"use client";
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
+  const pathname = usePathname();
+
+  const navLinks = [
+    { name: "Home", href: "/" },
+    { name: "Collections", href: "/collections" },
+    { name: "About", href: "/about" },
+  ];
+
   return (
     <nav className="gb-navbar">
       <div className="gb-nav-container">
         <Link href="/" className="gb-nav-logo">
           {"GAB'S"} <span>BEAUTY</span>
         </Link>
+
         <div className="gb-nav-links">
-          <Link href="/" className="gb-nav-link active">Home</Link>
-          <Link href="/collections" className="gb-nav-link">Collections</Link>
-          <Link href="/about" className="gb-nav-link">About</Link>
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`gb-nav-link ${isActive ? "active" : ""}`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </nav>
