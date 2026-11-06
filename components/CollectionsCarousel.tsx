@@ -8,13 +8,13 @@ interface Slide {
 const CollectionsCarousel = () => {
     const slides: Slide[] = [
         {
-            imageUrl: "powder1.png",
+            imageUrl: "cushionhero.png",
         },
         {
-            imageUrl: "lip1.png",
+            imageUrl: "eyehero.png",
         },
         {
-            imageUrl: "eye1.png",
+            imageUrl: "liphero.png",
         }
     ]
 
@@ -25,8 +25,9 @@ const CollectionsCarousel = () => {
                     <div
                         style={{
                             backgroundImage:`url(${ slide.imageUrl})`,
-                            backgroundSize:"cover",
+                            backgroundSize:"contain",
                             backgroundPosition:"center",
+                            backgroundRepeat: 'no-repeat',
                             height:"60vh",
                         }}>
                     </div>
