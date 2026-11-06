@@ -5,31 +5,31 @@ export default function CollectionsPage() {
     const products = [
     {
       id: 1,
-      name: "Radiant Skin Tint SPF 30",
-      category: "Complexion",
-      price: "IDR 245.000",
-      desc: "Sheer, hydrating skin tint that blurs imperfections naturally.",
-      image: "/skintint.png"
+      name: "Dewy Glow Sunscreen",
+      category: "Sunscreen",
+      price: "IDR 250.000",
+      desc: "Glowing sunscreen that protect your face perfectly.",
+      image: "/sunscreen.png"
     },
     {
       id: 2,
-      name: "Satin Velvet Lipstick",
-      category: "Lips",
-      price: "IDR 185.000",
-      desc: "Rich pigment with a buttery soft matte finish that never dries.",
-      image: "/lipstick.png"
+      name: "Radiant Skin Foundation",
+      category: "Complexion",
+      price: "IDR 280.000",
+      desc: "Weightless foundation that blurs your pores naturally.",
+      image: "/foundation.png"
     },
     {
       id: 3,
-      name: "Liquid Silk Blush",
-      category: "Cheeks",
-      price: "IDR 210.000",
-      desc: "Lit-from-within flush that melts effortlessly into skin.",
-      image: "/liquidblush.png"
+      name: "Airy Fit Cushion",
+      category: "Complexion",
+      price: "IDR 295.000",
+      desc: "Weightless cushion that gives you natural looks with high coverage.",
+      image: "/cushion.png"
     },
     {
       id: 4,
-      name: "Luminous Setting Powder",
+      name: "Blooming Loose Powder",
       category: "Complexion",
       price: "IDR 225.000",
       desc: "Weightless micro-fine powder that locks makeup in place all day.",
@@ -37,6 +37,22 @@ export default function CollectionsPage() {
     },
     {
       id: 5,
+      name: "Charming Liquid Blush",
+      category: "Cheeks",
+      price: "IDR 195.000",
+      desc: "Liquid blush that can enhance your beauty looks.",
+      image: "/blush.png"
+    },
+    {
+      id: 6,
+      name: "Soft Dream Eyeshadow Pallete",
+      category: "Eyes",
+      price: "IDR 210.000",
+      desc: "Soft color eyeshadow pallete with various selection of colors.",
+      image: "/eyeshadow.png"
+    },
+    {
+      id: 7,
       name: "Precision Eyebrow Definer",
       category: "Eyes",
       price: "IDR 135.000",
@@ -44,29 +60,37 @@ export default function CollectionsPage() {
       image: "/eyebrow.png"
     },
     {
-      id: 6,
-      name: "Lengthening Mascara",
-      category: "Eyes",
-      price: "IDR 175.000",
-      desc: "Smudge-proof formula for dramatic length and separated lashes.",
-      image: "/mascara.png"
-    },
-    {
-      id: 7,
-      name: "Hydrating Lip Gloss Oil",
-      category: "Lips",
-      price: "IDR 150.000",
-      desc: "Non-sticky nourishing shine infused with botanical oils.",
-      image: "/lipgloss.png"
-    },
-    {
       id: 8,
+      name: "Glossy Lip Tint",
+      category: "Lips",
+      price: "IDR 165.000",
+      desc: "Non-sticky nourishing shine infused with botanical oils.",
+      image: "/glossytint.png"
+    },
+    {
+      id: 9,
+      name: "Velvet Lipitnt",
+      category: "Lips",
+      price: "IDR 155.000",
+      desc: "Indulge your lips in a weightless, velvety-soft matte formula that delivers rich, long-lasting color with a plush, comfortable finish.",
+      image: "/velvetliptint.png"
+    },
+    {
+      id: 10,
       name: "Dewy Highlighter Stick",
       category: "Cheeks",
-      price: "IDR 195.000",
+      price: "IDR 185.000",
       desc: "Creamy multidimensional glow stick for instant radiance.",
-      image: "/highlighter.png"
-    }
+      image: "/highlighter1.png"
+    },
+    {
+      id: 11,
+      name: "Hydra Mist Setting Spray",
+      category: "Spray",
+      price: "IDR 175.000",
+      desc: "A long lasting spray that locks your makeup all day.",
+      image: "/spray.png"
+    },
   ];
 
   return (
