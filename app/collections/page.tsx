@@ -1,4 +1,5 @@
 import React from "react"
+import CollectionsCarousel from '@/components/CollectionsCarousel';
 
 export default function CollectionsPage() {
     const products = [
@@ -70,7 +71,7 @@ export default function CollectionsPage() {
 
   return (
     <div className="gb-container">
-
+      <CollectionsCarousel />
 
       <section className="gb-hero" style={{ padding: '4rem 1.5rem' }}>
         <span className="gb-badge">Full Catalog</span>
