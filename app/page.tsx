@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import './globals.css';
+import HeroSection from '@/components/HeroSection';
 
 export default function GabsBeautyHomePage() {
   return (
     <div className="gb-container">
+      <HeroSection />
 
       <section className="gb-hero">
         <div className="gb-hero-pattern"></div>
